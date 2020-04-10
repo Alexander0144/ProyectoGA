@@ -1,0 +1,19 @@
+{
+  "name": "proyectoga",
+  "version": "1.0.0",
+  "description": "Investigacion Google Analytics y Data Mining para la clase Ciencia de los Datos 9SB",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "app.js",
+    "investigacion",
+    "bootstrap",
+    "google_analytics"
+  ],
+  "author": "Alexander",
+  "license": "ISC"
+}
