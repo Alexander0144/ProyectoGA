@@ -5,7 +5,11 @@
     <title>Web Structure Mining</title>
     <link rel="stylesheet" href="../Styles/Libraries/bootstrap.min.css" />
   </head>
+
   <body>
+    <header class="text-md-center font-italic text-secondary display-4">
+      <strong> <i class="fas fa-database"></i> Ciencia de los Datos 9SB</strong>
+    </header>
     <nav class="navbar navbar-expand navbar-dark bg-dark">
       <a class="navbar-brand" href="/"> <i class="fas fa-home"></i> Inicio</a>
       <ul class="navbar-nav">
@@ -27,7 +31,7 @@
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <li>
               <a class="dropdown-item" href="../WebMining/Content"
-                >Web Mining Content</a
+                >Web Content Mining</a
               >
             </li>
             <li>
@@ -47,7 +51,55 @@
         </li>
       </ul>
     </nav>
-    <h1>Web Mining structure</h1>
+
+    <article class="text-center">
+      <h1>Web Structure Mining</h1>
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 bg-dark rounded-lg text-light">
+          <p>
+            Es el proceso que analiza la estructura de la información usada, que
+            describe el contenido de la Web. La estructura de la información de
+            la Web se puede clasificar como intra-página o inter-página.
+          </p>
+          <ul class="text-justify">
+            <li>
+              <p>
+                <b>inter-página</b> puede analizarse a través de los
+                hiperenlaces y a menudo se llama Web asociado o enlazado a
+                estructuras. En este tipo de minería, el enlace de estructura
+                puede representarse como un grafo, en el cuál los documentos son
+                los nodos y los hiperenlaces son las aristas del gráfico.
+              </p>
+            </li>
+            <li>
+              <p>
+                <b>intra-página</b> puede refiere a las estructuras internas de
+                los actuales tipos de documentos de la Web como HTML o XML, los
+                cuales están usualmente representados por árboles.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+
+      <img
+        height="400px"
+        width="600px"
+        src="../img/Web-structure-mining.png"
+        alt="imagen no disponible"
+      />
+
+      <br /><br />
+    </article>
+
+    <footer class="bg-dark text-center">
+      <span class="text-light"
+        >Alexander Peña Melikhov 2020 <i class="fas fa-globe"></i
+      ></span>
+    </footer>
+
     <script src="../Scripts/Libraries/jquery-3.4.1.min.js"></script>
     <script src="../Scripts/Libraries/bootstrap.min.js"></script>
     <script

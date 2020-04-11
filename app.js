@@ -7,7 +7,7 @@ app.use("/Styles", express.static(__dirname + "/Styles"));
 
 app.use("/Scripts", express.static(path.join(__dirname, "/Scripts")));
 
-app.use("/Scripts", express.static(path.join(__dirname, "/img")));
+app.use("/img", express.static(path.join(__dirname, "/img")));
 
 app.use("/WebMining", wm_router);
 
